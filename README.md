@@ -33,18 +33,18 @@ Your project directory should look like this:
 ```plaintext
 .
 ├── VIT/                      # Contains all ViT-related codes and scripts
-│   ├── vit_model.pth         # Vision Transformer model checkpoint
-│   ├── character_recognition.py  # ViT scripts
+│   ├── OCR_VIT.py         # Vision Transformer model checkpoint
+│   ├── test_OCR # ViT scripts
 │   └── ...
 ├── test_data/                # Contains test images
 │   ├── test_image1.jpg
 │   ├── test_image2.jpg
 │   └── ...
-├── trained_weight/           # Contains YOLO trained weights
+├── trained_weight/           # Contains YOLO and VIT trained weights
 │   ├── yolo-best.pt          # License plate YOLO model
 │   ├── yolov8s.pt            # Vehicle YOLO model
-│   └── ...
-├── detect_and_recognize.py   # Main script for detection and recognition
+│   └── vit_model.pth
+├── Yolo_and_VIT.ipynb   # Main script for detection and recognition
 ├── test.mp4                  # Input video
 ├── output_video1.avi         # Processed output video
 └── ...
